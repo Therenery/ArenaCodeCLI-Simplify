@@ -43,7 +43,7 @@ arena_bridge.js（node，无第三方依赖）
 ```cmd
 "C:\Program Files\Google\Chrome\Application\chrome.exe" ^
   --remote-debugging-port=9222 ^
-  --user-data-dir="F:\__AI__\profiles\arena" ^
+  --user-data-dir="%USERPROFILE%\.arena-bridge\chrome-profile" ^
   --no-first-run --no-default-browser-check
 ```
 
