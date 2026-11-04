@@ -65,11 +65,10 @@ curl http://127.0.0.1:17892/health
 ### 3. 起 CLI
 
 ```cmd
-cd patches
 git clone https://github.com/QwenLM/qwen-code.git
 cd qwen-code
 git checkout 1ccf0d43f35e51389573d87e5ae634c4d782f049
-git apply ..\arena-code-cli.patch
+git apply ..\patches\arena-code-cli.patch
 npm install
 npm run build
 ```
